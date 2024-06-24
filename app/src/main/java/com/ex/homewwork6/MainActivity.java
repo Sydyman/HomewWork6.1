@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
             first = Integer.valueOf(textView.getText().toString());
             operation = "*";
         } else if (view.getId() == R.id.btn_equal) {
+            Button.setVisibility(View.VISIBLE);
             second = Integer.valueOf(textView.getText().toString());
             if (operation.equals("+")) {
                 result = first + second;
@@ -93,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
             if (result != null) {
 
                 Button.setVisibility(View.VISIBLE);
+
             }
         }
         isOperationClick = true;

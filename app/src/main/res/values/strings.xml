@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">HomewWork6</string>
+    <string-array name="spinner_items">
+        <item>Элемент 1</item>
+        <item>Элемент 2</item>
+        <item>Элемент 3</item>
+
+    </string-array>
 </resources>
